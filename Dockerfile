@@ -14,4 +14,5 @@ RUN apt-get update && \
 RUN pip install --no-cache-dir \
     compressai==1.2.6 \
     opencv-python-headless==4.11.0.86 \
-    biwkv4-cuda
+    biwkv4-cuda \
+    ansnp
